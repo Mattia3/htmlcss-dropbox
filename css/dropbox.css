@@ -56,13 +56,13 @@ INIZIO HERO SECTION
 .hero_container{
   margin-top: 140px;
   font-family: Open sans;
-  position: relative;
+ 
 }
 
 .container_large{
   max-width: 1367px;
   margin: auto;
-  width: auto;
+  padding: 0;
 } 
 
 .hero_title{
@@ -88,13 +88,13 @@ INIZIO HERO SECTION
 .box_conteiner{
   max-width: 1010px;
   margin: auto;
-  width: 100%;
   font-family: Open sans;
+  padding: 0;
 }
 
 .title_main{
   font-size: 40px;
-  ;
+  
 }
 
 
