@@ -118,7 +118,7 @@ INIZIO HERO SECTION
 
 .container_col_1{
   border: 1px solid lightgray;
-  padding-right: 16px;
+  padding-right: 4px;
   padding-left: 20px;
   padding-top: 56px;
   min-height: 1150px;
@@ -128,7 +128,6 @@ INIZIO HERO SECTION
 main ul li {
   list-style: none;
   padding: 12px 0px;
-  
 }
 
 .Singol{
@@ -214,5 +213,188 @@ main ul li {
 }
 
 .img_col_3{
+  width: 79%;
+  padding-top: 50px;
+}
+
+.sottitle_col{
+  padding-bottom: 33px;
+}
+
+
+.col_1_cont{
+  padding-right: 37px;
+  padding-left: 0px;
+}
+
+.title-design{
+  margin-top: 100px;
+  padding-bottom: 40px;
+}
+
+
+.logo-col{
+  width: 100px;
+  background-color: blue;
+}
+
+/*inizio square*/
+
+#square-container{
+  padding-top: 80px;
+}
+
+
+#square-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#square-container > div::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#square-container > div .square{
+  float: left;
+  height: calc(30vw / 2);
+  width: 50%;
+  padding: 40px 40px
+}
+
+
+#square-container > div:nth-child(2){
+  width: 40%;
+}
+
+
+#square-container > div:nth-child(odd){
   width: 30%;
+}
+
+#square-container > div{
+  float: left;
+}
+
+
+
+.square_2{
+  background-color: #a2d39b;
+}
+
+.square_3{
+  background-color: #61082b;
+}
+
+.square_4{
+ background-color: #0093ce; 
+}
+
+.square_5{
+  background-color: #ff1c1c;
+}
+
+.square_6{
+  background-color: rgba(180,208,231,255);
+}
+
+.square_7{
+  background-color: #0d2481;
+}
+
+.square_8{
+  background-color: rgba(255,216,48,255);
+}
+
+.img_central{
+  width: 20%;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.text_img-central{
+  margin-top: 100px;
+  margin-left: 60px;
+  padding-right: 205px;
+}
+             /*fine square*/
+
+
+.title_porta{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 42%;
+  color: #61082b;
+  
+}
+
+.btn_title-porta{
+  background-color: white;
+  margin-left: 20%;
+}
+
+
+.btn_cont{
+  margin-top: 107px;
+}
+
+.container_aswers{
+  padding-top: 100px;
+  padding-left: 20%;
+}
+
+.question{
+  padding-bottom: 70px;
+}
+
+.container_aswers  li{
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.arrow{
+  margin-left: 20%;
+}
+
+/*Fine main*/
+
+/*Inizio footer*/
+
+.background_footer{
+  background-color: black;
+  margin-top: 100px;
+}
+
+.background_footer ul li a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.background_footer ul{
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+
+
+.background_footer ul li{
+  padding-top: 10px;
+}
+
+.Title_footer{
+  padding-bottom: 15px;
+}
+
+.final-footer{
+  color: #d3d3d37a;
+  border-top: 1px solid #d3d3d37a;
+  display: inline-block;
+  padding-top: 40px;
+}
+
+.icon_footer{
+  color: #d3d3d37a;
 }
