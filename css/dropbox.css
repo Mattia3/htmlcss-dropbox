@@ -28,7 +28,7 @@ header ul li a{
 .btn_blue{
   color: white;
   background-color:#0061FF;
-  padding: 6px 15px;;
+  padding: 7px 26px;;
   text-decoration: none;
 }
 
@@ -38,6 +38,7 @@ header ul li a{
   right: 0;
   left: 0;
   z-index: 3;
+  font-family: Open sans;
 }
 
 
@@ -54,9 +55,10 @@ INIZIO HERO SECTION
 }
   
 .hero_container{
-  margin-top: 140px;
+  margin-top: 70px;
   font-family: Open sans;
- 
+  position: relative;
+  top: 70px;
 }
 
 .container_large{
@@ -89,21 +91,128 @@ INIZIO HERO SECTION
   max-width: 1010px;
   margin: auto;
   font-family: Open sans;
-  padding: 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .title_main{
   font-size: 40px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+}
+
+.Input_label{
+  padding-right: 40px;
+  display: inline-block;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+ 
+.Radio{
+  display: inline-block;
+}
+
+/*Inizio tabella */
+
+
+.container_col_1{
+  border: 1px solid lightgray;
+  padding-right: 16px;
+  padding-left: 20px;
+  padding-top: 56px;
+  min-height: 1150px;
+  margin-bottom: 29px
+}
+
+main ul li {
+  list-style: none;
+  padding: 12px 0px;
   
 }
 
+.Singol{
+  text-align: center;
+  padding-bottom: 10px;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+}
 
- 
+.prezzo{
+  padding: 10px 0px;
+}
 
+.month{
+  padding-bottom: 40px;
+  color: #637381;
+}
 
-
+.btn_table{
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
   
+.title_col{
+  padding-bottom: 20px;
+  padding-top: 70px;
+}
 
 
+.container-col {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*Fine tabella*/
+
+.conteiner_team{
+  margin: 5px 0px;
+    text-align: center;
+}
+
+.btn_white{
+  color: white;
+  background-color:#0061FF;
+  padding: 9px 10px;;
+  text-decoration: none;
+  border-bottom: 1px solid lightgray;
+}
 
 
+.container_enterprise{
+  margin-left: 20px;
+  padding: 10px 10px;
+}
+
+.conteiner_border{
+  border: 1px solid lightgray;
+  margin: 20px 20px;
+}
+
+
+.img_partner{
+  width: 90%;
+  margin-top: 84px;
+  padding-left: 20px;
+  margin-bottom: 90px;
+}
+
+.container_img_partner{
+  margin-top: 79px;
+}
+ 
+.btn-white_black{
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+}
+
+.container_medium{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img_col_3{
+  width: 30%;
+}
