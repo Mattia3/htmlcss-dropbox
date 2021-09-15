@@ -1,6 +1,5 @@
 header ul li{
   display: inline-block;
-  list-style: none;
   vertical-align: middle;
   padding: 0px 15px;
 }
@@ -8,6 +7,11 @@ header ul li{
 header ul li a{
   text-decoration: none;
   color: black;
+  height: 0;
+}
+
+header ul li a:hover{
+  text-decoration: underline;
 }
 
 .container_nav{
@@ -27,8 +31,12 @@ header ul li a{
 .btn_blue{
   color: white;
   background-color:#0061FF;
-  padding: 7px 26px;;
+  padding: 7px 16px;;
   text-decoration: none;
+}
+
+.btn_blue:hover{
+  box-shadow: 3px 3px 8px black;
 }
 
 .container_fixed{
@@ -82,6 +90,18 @@ INIZIO HERO SECTION
   width: 100%;
 }
 
+.icon-arrow{
+  font-size: 50px;
+  animation: arrow infinite 4s linear;
+  position: relative;
+}
+
+@keyframes arrow{
+  0%   {top: 0px;}
+  25%  {top: 0px;}
+  75%  {top: 100px}
+  100% {top: 0px;}
+}
 
 /*FINE HERO SECTION*/
 
@@ -91,13 +111,10 @@ INIZIO HERO SECTION
 .box_conteiner{
   max-width: 1010px;
   margin: auto;
-  font-family: Open sans;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 0;
 }
 
 .title_main{
-  font-size: 40px;
   padding-top: 120px;
   padding-bottom: 60px;
   padding-left: 20px;
@@ -119,14 +136,13 @@ INIZIO HERO SECTION
 
 .container_col_1{
   border: 1px solid lightgray;
-  padding-right: 4px;
   padding-left: 20px;
   padding-top: 56px;
   min-height: 1150px;
   margin-bottom: 29px
 }
 
-main ul li {
+.container_col_1 ul li {
   list-style: none;
   padding: 12px 4px;
 }
@@ -137,9 +153,8 @@ main ul li {
 
 .Singol{
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
   border: 1px solid lightgray;
-  padding-top: 10px;
 }
 
 .prezzo{
@@ -174,13 +189,7 @@ main ul li {
     text-align: center;
 }
 
-.btn_white{
-  color: white;
-  background-color:#0061FF;
-  padding: 9px 10px;;
-  text-decoration: none;
-  border-bottom: 1px solid lightgray;
-}
+
 
 .icon_text-small{
   margin-left: -20px;
@@ -216,9 +225,13 @@ main ul li {
   padding: 10px 10px;
 }
 
+.btn-white_black:hover{
+  box-shadow: 3px 3px 8px black;
+  background: rgb(23, 184, 9);
+}
+
 .container_medium{
-  padding-left: 20px;
-  padding-right: 20px;
+ padding: 0 20px;
 }
 
 .img_col_3{
@@ -331,7 +344,8 @@ main ul li {
 
 .img_central{
   width: 20%;
- 
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
 }
 
 .text_img-central{
@@ -340,10 +354,7 @@ main ul li {
 }
              /*fine square*/
 
-.arrow{
-  position: absolute;
-  right: 20px;
-}
+
 
 .title_porta{
   padding-top: 100px;
@@ -358,28 +369,44 @@ main ul li {
   margin-left: 20%;
 }
 
-
 .btn_cont{
   margin-top: 107px;
 }
 
-.container_aswers{
+/*Inizio accordium*/
+
+.accordium-container{
   padding-top: 100px;
 }
 
-.question{
-  padding-bottom: 70px;
-}
-
-.container_aswers  li{
-  padding-top: 40px;
+.accordium-item h4{
+  padding: 20px 0;
   font-weight: bold;
-  position: relative;
-  font-family: Open sans;
+  padding-right: 60px;
 }
 
+.accordium-item{
+  padding-top: 70px;
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+}
 
+.accordium-item-content{
+  margin-bottom: 20px;
+  display: none;
+}
 
+.accordium-item:focus .accordium-item-content{
+  display: block;
+}
+
+.accordium-icon{
+  position: absolute;
+  right: 20px;
+}
+
+/*Fine accordium*/
 
 /*Fine main*/
 
@@ -416,6 +443,8 @@ main ul li {
 .icon_footer{
   color: #d3d3d37a;
 }
+
+/*Fine footer*/
 
 
 
