@@ -2,19 +2,18 @@ header ul li{
   display: inline-block;
   list-style: none;
   vertical-align: middle;
+  padding: 0px 15px;
 }
 
 header ul li a{
   text-decoration: none;
   color: black;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container_nav{
   width: 50%;
   float: left;
-  padding: 20px 20px;
+  padding: 20px 0px;
 }
 
 .container_nav_right{
@@ -22,7 +21,7 @@ header ul li a{
   float: right;
   text-align: right;
   line-height: 29px;
-  padding: 20px 20px;
+  padding: 20px 0px;
 }
 
 .btn_blue{
@@ -38,7 +37,6 @@ header ul li a{
   right: 0;
   left: 0;
   z-index: 3;
-  font-family: Open sans;
 }
 
 
@@ -53,10 +51,13 @@ INIZIO HERO SECTION
 .background_hero{
   background-color: #B4D0E7;
 }
+
+.hero_text{
+  padding-bottom: 40px;
+}
   
 .hero_container{
   margin-top: 70px;
-  font-family: Open sans;
   position: relative;
   top: 70px;
 }
@@ -72,7 +73,7 @@ INIZIO HERO SECTION
   padding-bottom: 50px;
 }
 
-.paddint_top{
+.padding_top{
   padding-top: 15px;
   padding-bottom: 35px;
 }
@@ -127,7 +128,11 @@ INIZIO HERO SECTION
 
 main ul li {
   list-style: none;
-  padding: 12px 0px;
+  padding: 12px 4px;
+}
+
+.true{
+  margin-left: -20px;
 }
 
 .Singol{
@@ -175,6 +180,10 @@ main ul li {
   padding: 9px 10px;;
   text-decoration: none;
   border-bottom: 1px solid lightgray;
+}
+
+.icon_text-small{
+  margin-left: -20px;
 }
 
 
@@ -240,44 +249,56 @@ main ul li {
 
 /*inizio square*/
 
-#square-container{
-  padding-top: 80px;
+.square-container{
+  width: 30%;
+  float: left;
 }
 
-
-#square-container::after{
+.conteiner-square-clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 
-#square-container > div::after{
+.conteiner-square-clearfix{
+  padding-top: 30px;
+}
+
+.square-container > div::after{
   content: "";
   display: table;
   clear: both;
 }
 
-#square-container > div .square{
+.square{
   float: left;
   height: calc(30vw / 2);
   width: 50%;
-  padding: 40px 40px
+  position: relative;
 }
 
 
-#square-container > div:nth-child(2){
+.img_central-conteiner{
   width: 40%;
-}
-
-
-#square-container > div:nth-child(odd){
-  width: 30%;
-}
-
-#square-container > div{
   float: left;
+  padding: 30px;
 }
 
+
+.img_central-conteiner::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.square > img{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+}
 
 
 .square_2{
@@ -310,17 +331,19 @@ main ul li {
 
 .img_central{
   width: 20%;
-  margin-top: 60px;
-  margin-left: 60px;
+ 
 }
 
 .text_img-central{
-  margin-top: 100px;
-  margin-left: 60px;
-  padding-right: 205px;
+  padding-top: 80px;
+  font-family: Open sans;
 }
              /*fine square*/
 
+.arrow{
+  position: absolute;
+  right: 20px;
+}
 
 .title_porta{
   padding-top: 100px;
@@ -342,7 +365,6 @@ main ul li {
 
 .container_aswers{
   padding-top: 100px;
-  padding-left: 20%;
 }
 
 .question{
@@ -352,11 +374,12 @@ main ul li {
 .container_aswers  li{
   padding-top: 40px;
   font-weight: bold;
+  position: relative;
+  font-family: Open sans;
 }
 
-.arrow{
-  margin-left: 20%;
-}
+
+
 
 /*Fine main*/
 
@@ -365,23 +388,18 @@ main ul li {
 .background_footer{
   background-color: black;
   margin-top: 100px;
+  font-family: Open sans;
 }
 
 .background_footer ul li a{
   color: white;
   list-style: none;
   text-decoration: none;
-  margin-top: 50px;
 }
 
-.background_footer ul{
-  padding-top: 65px;
-  padding-bottom: 70px;
-}
-
-
-.background_footer ul li{
-  padding-top: 10px;
+.conteiner_footer{
+  padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 .Title_footer{
@@ -398,3 +416,8 @@ main ul li {
 .icon_footer{
   color: #d3d3d37a;
 }
+
+
+
+
+

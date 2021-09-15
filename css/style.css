@@ -47,9 +47,8 @@
   width: calc(100% / 9 * 7);
 }
 
-.text_small{
-  font-size: 16px;
-  padding-bottom: 40px;
+.col_1-5{
+  width: calc(100% / 5);
 }
 
 h2{
@@ -64,7 +63,10 @@ h4{
   font-size: 16px;
 }
 
+p {
+  font-size: 16px;
+}
 
-.col_1-5{
-  width: calc(100% / 5);
+body{
+  font-family: Open sans;
 }
