@@ -45,6 +45,7 @@ header ul li a:hover{
   right: 0;
   left: 0;
   z-index: 3;
+  background-color: white;
 }
 
 
@@ -144,7 +145,7 @@ INIZIO HERO SECTION
 
 .container_col_1 ul li {
   list-style: none;
-  padding: 12px 4px;
+  padding: 12px 20px;
 }
 
 .true{
@@ -186,7 +187,7 @@ INIZIO HERO SECTION
 
 .conteiner_team{
   margin: 5px 0px;
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -202,7 +203,9 @@ INIZIO HERO SECTION
 }
 
 .conteiner_border{
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
   margin: 20px 20px;
 }
 
@@ -295,6 +298,8 @@ INIZIO HERO SECTION
   width: 40%;
   float: left;
   padding: 30px;
+  height: 30vh;
+  overflow: auto;
 }
 
 
@@ -359,7 +364,6 @@ INIZIO HERO SECTION
 .title_porta{
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 42%;
   color: #61082b;
   
 }
@@ -415,7 +419,6 @@ INIZIO HERO SECTION
 .background_footer{
   background-color: black;
   margin-top: 100px;
-  font-family: Open sans;
 }
 
 .background_footer ul li a{
@@ -425,7 +428,7 @@ INIZIO HERO SECTION
 }
 
 .conteiner_footer{
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
